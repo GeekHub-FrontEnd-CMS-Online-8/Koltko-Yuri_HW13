@@ -1,0 +1,99 @@
+#todo__list {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 400px;
+    margin: auto;
+}
+
+#todo__list h1{
+    background-color: #000;
+    color: #fff;
+    margin-top: 0;
+}
+#todo__list h2, h3{
+    margin: 5px;
+}
+
+button {
+    background: none;
+    border: 0;
+}
+input {
+    border: 0;
+    outline: none;
+}
+.add__todo {
+    border: 1px solid;
+    min-width: 300px;
+    margin: auto;
+}
+
+#finished-tasks, #unfinished-tasks li {
+    list-style-type: none;
+    /* border-bottom:1px solid#000;
+    width: 300px; */
+    margin: auto;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+
+}
+.line {
+    height: 1px;
+    width: 300px;
+    background-color: #000;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#new-task {
+    width: 76%;
+}
+
+.button__more {
+    text-align: center;
+    margin: 30px;
+}
+
+.button__more input {
+    background: #9c9c9c;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+}
+
+.button__more input:hover {
+    background: #eb9f14;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+.add__todo button:hover {
+    background: #eb9f14;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.item-details{
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding: 6px;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+.display__ajax {
+    display: flex;
+    flex-direction: column;
+}
